@@ -1,4 +1,8 @@
+----------------------------------------------
+
 This is the reader's manual for using and editing this software project as you may like.
+
+----------------------------------------------
 
 Prerequisites before using this software :
 
@@ -8,6 +12,8 @@ Prerequisites before using this software :
 3. Install the MySQL server using any of the public distribuitions (XAMPP is recommended).
 4. Import the database into your SQL server using the sql import file given in the repository (ClgMgmt.sql).
 5. Make sure the SQL server setup is complete and it is up and running with the "clgmgmt" database.
+
+----------------------------------------------
 
 Short Introduction :
 
@@ -22,20 +28,6 @@ The operations include :
 
 For details editing operation, enter the field name as the attribute name from the database tables.
 For attendance related operations, enter the months in this format (jan/feb/mar/apr/may/jun/jul/aug/sept/oct/nov/december)
-
-----------------------------------------------
-
-Note for the Developers : 
-
-Attendance.py contains all the attendance management operations.
-
-ConFrontend.py contains the info display operations for student/parents.
-
-DbManip.py contains all the data manipulation operations into the database, including traversing.
-
-StudClass.py contains the container classes for the information of students and parents.
-
-main.py is the main entry point where the program execution begins.
 
 ----------------------------------------------
 
@@ -60,8 +52,24 @@ execute main.py using the terminal of your choice.
 
 ----------------------------------------------
 
+Note for the Developers : 
+
+Attendance.py contains all the attendance management operations.
+
+ConFrontend.py contains the info display operations for student/parents.
+
+DbManip.py contains all the data manipulation operations into the database, including traversing.
+
+StudClass.py contains the container classes for the information of students and parents.
+
+main.py is the main entry point where the program execution begins.
+
+----------------------------------------------
+
 Feel free to try out my project, make your own implementations, suggest changes and modification and help in improving my project. :)
 
 ----------------------------------------------
 
 P.S. : Hail the internet for all the awesome resources and information present on anything you want to learn. Credits to everybody who made it possible for me to complete this project of mine. :)
+
+----------------------------------------------
